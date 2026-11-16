@@ -21,7 +21,7 @@ namespace CampusNet
             controller.AddEdge("C", "D");
 
             Console.WriteLine("SISTEMA DE GRAFOS");
-            controller.ShowGraph();
+            Console.WriteLine(controller.GetGraphDescription());
 
             Console.ReadKey();
         }
